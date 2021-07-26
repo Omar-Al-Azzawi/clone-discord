@@ -227,6 +227,7 @@ img {
 .download {
   background-color: var(--off-white-clr);
   position: relative;
+  padding-bottom: 8 rem;
 }
 .download .remove-grid {
   display: block;
@@ -244,8 +245,81 @@ img {
   background-color: var(--brand-clr);
   color: var(--light-clr);
   transition: background-color 0.5s;
-  margin-top: 4rem;
 }
 .btn-brand:hover {
   background-color: #8ea1e1;
+}
+.download .btn-brand {
+  margin-top: 4rem;
+}
+
+/* main footer */
+
+.main-footer {
+  background-color: var(--dark-clr);
+  color: var(--light-clr);
+  padding: 8rem 2.4rem.4rem;
+}
+.main-footer .row {
+  padding: 0;
+}
+.info-box {
+  grid-column: span 4;
+  margin-bottom: 5.6rem;
+}
+.footer-title {
+  color: var(--brand-clr);
+}
+.info-box .footer-title {
+  font-size: 3.2rem;
+  font-family: var(--main-font-family-medium);
+}
+.languages {
+  margin: 2.4rem 0;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.languages img {
+  width: 2.4rem;
+}
+.languages span {
+  margin: 0 0.8rem;
+}
+.sm-link {
+  font-size: 2.3rem;
+  color: inherit;
+  margin-right: 2rem;
+}
+.spacer {
+  display: none;
+}
+.footer-links-group {
+  margin-bottom: 4rem;
+  font-size: 1.6rem;
+  grid-column: span 2;
+}
+.footer-links-group .footer-title {
+  font-size: inherit;
+  padding-top: 0.8rem;
+  font-weight: 100;
+}
+.footer-link {
+  display: block;
+  margin-top: 1.2rem;
+  color: inherit;
+}
+.divider {
+  grid-column: 1/-1;
+  height: 1px;
+  background-color: var(--brand-clr);
+  margin-bottom: 3.2rem;
+}
+.main-footer .remove-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-footer .btn-brand {
+  line-height: 1.8;
 }
